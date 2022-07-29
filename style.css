@@ -15,6 +15,10 @@ p {
     font-size: 16px;
 }
 
+cite {
+    color: #000000;
+}
+
 a,
 button {
     transition: all .3s ease-in-out;
@@ -666,7 +670,8 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757 !important;
+    /* color: #575757 !important; */
+    color: #000000 !important;
 }
 
 .container {
@@ -697,7 +702,7 @@ a {
 }
 
 .h1 {
-    font-size: 20px;
+    font-size: 22px;
     font-family: "Open Sans";
 }
 
@@ -716,29 +721,19 @@ a {
 }
 
 h2 {
-    font-size: 22px;
+    font-size: 20px;
     line-height: 1.4em;
 }
 
 h3 {
-    font-size: 15px;
+    font-size: 16px;
     text-transform: uppercase;
-    font-weight: 700;
-    color: #333333 !important;
 }
 
 .med-width-whitespace {
     max-width: 800px;
     margin: auto auto auto auto;
     box-shadow: 0px 0px 0px #000000;
-}
-
-h1 {
-    color: #333333 !important;
-}
-
-h4 {
-    color: #333333 !important;
 }
 
 .icons {
@@ -786,17 +781,20 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C !important;
+    color: #fff !important;
+    font-weight: 700;
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF !important;
+    color: black !important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956 !important;
-    color: #FFFFFF !important;
+    /* background: #c27956 !important;
+    color: #FFFFFF !important; */
+    background: #fff !important;
+        color: black !important;
 }
 
 .ltc-white {
