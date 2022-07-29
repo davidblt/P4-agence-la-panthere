@@ -1100,3 +1100,9 @@ h3 {
 .citation-text p, .title-text-2 {
     font-size: 18px;
 }
+
+.footer-title {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 24px 0;
+}
