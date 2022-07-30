@@ -31,7 +31,10 @@ a:hover {
 
 address {
     color: #000000;
+    font-size: 18px;
     line-height: 1.6;
+    text-align: center;
+    margin: 20px;
 }
 
 
@@ -48,7 +51,7 @@ address {
     width: 100%;
     clear: both;
     background: 50% 50% no-repeat;
-    padding: 0 50px;
+    padding: 0 20px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -808,7 +811,7 @@ h3 {
     /* background: #c27956 !important;
     color: #FFFFFF !important; */
     background: #fff !important;
-    color: black !important;
+    color: #000000 !important;
 }
 
 .ltc-white {
