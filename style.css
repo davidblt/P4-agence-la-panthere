@@ -5,6 +5,7 @@ body {
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    height: 100vh;
 }
 
 strong {
@@ -22,13 +23,12 @@ cite {
 a,
 button {
     transition: all .3s ease-in-out;
-    /* outline: none !important; */
 }
 
 a:hover {
-    text-decoration: none;
     cursor: pointer;
 }
+
 
 #page-loading-blocs-notifaction {
     position: fixed;
@@ -145,7 +145,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: #000000;
 }
 
 .d-bloc .a-btn:hover,
@@ -302,6 +302,8 @@ a:hover {
 .navbar {
     margin-bottom: 0;
     z-index: 1;
+    width: 100%;
+    padding-right: 45px;
 }
 
 .navbar-brand {
@@ -338,6 +340,13 @@ a:hover {
     float: left;
     margin-top: 4px;
     font-size: 20px;
+    padding: 20px;
+    list-style-type: none;
+    margin-right: 100px;
+}
+
+.nav>li a {
+    text-decoration: none;
 }
 
 .navbar-nav .open .dropdown-menu>li>a {
@@ -701,9 +710,9 @@ a {
     margin: auto auto auto auto;
 }
 
-.h1 {
-    font-size: 22px;
+h1 {
     font-family: "Open Sans";
+    text-align: center;
 }
 
 .cta-hero {
@@ -794,7 +803,7 @@ h3 {
     /* background: #c27956 !important;
     color: #FFFFFF !important; */
     background: #fff !important;
-        color: black !important;
+    color: black !important;
 }
 
 .ltc-white {
@@ -851,7 +860,8 @@ h3 {
 
 @media (max-width: 992px) and (min-width: 768px) {
     .navbar .nav {
-        max-width: 80%
+        max-width: 80%;
+        display: flex;
     }
 
     .nav-center.navbar .nav {
@@ -1097,7 +1107,8 @@ h3 {
     font-size: 24px;
 }
 
-.citation-text p, .title-text-2 {
+.citation-text p,
+.title-text-2 {
     font-size: 18px;
 }
 
@@ -1105,4 +1116,24 @@ h3 {
     font-size: 18px;
     font-weight: 700;
     margin: 24px 0;
+    text-align: center;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 18px;
+}
+
+#form_1 {
+    /* margin-left: 32px; */
+    text-align: center;
+}
+
+.form-group {
+    text-align: justify;
+    padding: 8px;
+}
+
+#message {
+    margin-top: 16px;
 }
