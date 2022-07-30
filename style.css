@@ -29,6 +29,11 @@ a:hover {
     cursor: pointer;
 }
 
+address {
+    color: #000000;
+    line-height: 1.6;
+}
+
 
 #page-loading-blocs-notifaction {
     position: fixed;
@@ -1130,7 +1135,7 @@ h3 {
 }
 
 .form-group {
-    text-align: justify;
+    text-align: left;
     padding: 8px;
 }
 
