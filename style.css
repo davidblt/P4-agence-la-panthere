@@ -37,6 +37,10 @@ address {
     margin: 20px;
 }
 
+.logo-header {
+    height: 60px;
+    width: auto;
+}
 
 #page-loading-blocs-notifaction {
     position: fixed;
@@ -110,10 +114,10 @@ address {
     right: 0;
 }
 
-.texture-paper::before {
+/* .texture-paper::before {
     background: url("img/texture-paper.png");
     background-size: 280px 280px;
-}
+} */
 
 .b-parallax {
     background-attachment: fixed;
@@ -738,8 +742,8 @@ h1 {
 }
 
 h2 {
-    font-size: 20px;
-    line-height: 1.4em;
+    font-size: 22px;
+    line-height: 2em;
 }
 
 h3 {
