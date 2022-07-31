@@ -1149,3 +1149,9 @@ h3 {
 #message {
     margin-top: 16px;
 }
+
+.what-i-do p {
+    line-height: 1.8;
+    text-align: center;
+    font-size: 18px;
+}
